@@ -1,0 +1,1 @@
+Tell me a one-liner {jokeType} joke
