@@ -24,6 +24,10 @@ public class JokeController {
     @Value("classpath:/templates/top10.st")
     private Resource top10TemplatedResource;
 
+    /**
+     * Chat builder intialized by spring
+     * @param builder
+     */
     public JokeController(ChatClient.Builder builder)
     {
         this.client = builder
